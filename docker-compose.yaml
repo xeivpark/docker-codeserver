@@ -12,6 +12,10 @@ services:
       TZ: "${TZ:-Asia/Seoul}"
     ports:
       - "${CODE_SERVER_HOST:-127.0.0.1}:${CODE_SERVER_PORT:-12345}:8080"
+      - "10111:10111"
+      - "10112:10112"
+      - "10113:10113"
+      - "10114:10114"
     volumes:
       - ./.code-server/local:/home/coder/.local
       - ./.code-server/config:/home/coder/.config
