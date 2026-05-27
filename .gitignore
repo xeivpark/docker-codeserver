@@ -1,0 +1,5 @@
+.code-server/
+workspace/
+.codex/
+.DS_Store
+*.log
