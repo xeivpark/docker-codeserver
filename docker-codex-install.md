@@ -6,6 +6,10 @@
 
 ```bash
 docker exec -it code-server bash
+
+# 관리자 로그인 root 로 할 것
+docker exec -it -u root code-server bash
+
 ```
 
 # 터미널 접속 후 아래 명령어 수동으로 1줄씩 입력 수행 
